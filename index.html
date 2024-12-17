@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math RPG Game</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Math RPG</h1>
+            <div id="stats">
+                <p>Level: <span id="level">1</span></p>
+                <p>XP: <span id="xp">0</span></p>
+                <p>Health: <span id="health">100</span></p>
+            </div>
+        </header>
+        <main>
+            <div id="question-container">
+                <p id="question">Solve: 2 + 2</p>
+                <input type="number" id="answer" placeholder="Your answer">
+                <button id="submit-answer">Submit</button>
+            </div>
+            <div id="equipment">
+                <h2>Equipment</h2>
+                <ul id="inventory">
+                    <li>Sword: +5 Attack</li>
+                    <li>Shield: +3 Defense</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <button id="start-game">Start Game</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
